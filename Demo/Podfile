@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "8.0"
+#
+inhibit_all_warnings!
+platform :ios, "8.0"
+
+def default_pods
+    pod 'pop', '~> 1.0.7'
+    pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'Reveal-SDK', :configurations => ['Debug']
+end
+
+target 'Demo' do
+    default_pods
+end
