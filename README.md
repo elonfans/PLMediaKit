@@ -31,5 +31,9 @@ vc.type = PickerTypeImage;
 
 ## License
 
-YTKNetwork is available under the MIT license. See the LICENSE file for more info.
+PLMediaKit is available under the MIT license. See the LICENSE file for more info.
+
+## Contact
+
+Email : pauleyliu@gmail.com
 
