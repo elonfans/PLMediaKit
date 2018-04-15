@@ -1,22 +1,25 @@
 # PLMediaKit
-照片选取和视频录制、选取、剪辑框架
 
-## 支持版本
+## Abstract
+* Photo Selection
+* Video Recording、Selection、Editing
+
+## Support
 
 iOS8.0+
 
-## 主要功能
+## Feature
 
-1. 照片拍摄、本地选图、图片预览（支持手势缩放，支持超长图）。
-3. 视频录制，支持闪光灯和镜头翻转。
-4. 视频剪辑、水印、压缩转码。
-5. 支持 iCloud 视频、GIF 图。
+1. photo shoot, local photo selection, picture preview (support for gesture scaling and super long image).
+3. video record, support flash and camera flip.
+4. video clip、watermark、compression transcoding.
+5. support iCloud video、gif file.
 
-## 项目接入
+## Usage
 
 ```
 PLMediaPickerViewController *vc = [[PLMediaPickerViewController alloc] init];
-vc.maxNumber = 6; //选取图片数量
+vc.maxNumber = 6; // the number of images
 vc.type = PickerTypeImage;
 [vc callBackImagesData:^(NSArray *imagesData) {
     NSLog(@"%@", imagesData);
