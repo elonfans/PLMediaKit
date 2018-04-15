@@ -14,6 +14,7 @@ iOS8.0+
 
 ## 项目接入
 
+```
 PLMediaPickerViewController *vc = [[PLMediaPickerViewController alloc] init];
 vc.maxNumber = 6; //选取图片数量
 vc.type = PickerTypeImage;
@@ -23,6 +24,7 @@ vc.type = PickerTypeImage;
     NSLog(@"%@", error.localizedDescription);
 }];
 [self presentViewController:vc animated:YES completion:nil];
+```
 
 ## License
 
